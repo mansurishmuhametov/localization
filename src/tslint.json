@@ -1,0 +1,5 @@
+{
+    "extends": [
+        "Crumbs.Configurations.TsLint"
+    ]
+}

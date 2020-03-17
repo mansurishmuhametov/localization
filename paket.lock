@@ -1,0 +1,13 @@
+STRATEGY: MIN
+RESTRICTION: == net471
+
+GROUP Build
+NUGET
+  remote: http://nuget.watcom.ru/nuget
+    Corns.Fake (1.0.4)
+      FAKE.Lib (>= 4.63.2 < 4.64)
+      FSharp.Core (>= 4.0.0.1 < 4.0.1)
+  remote: https://www.nuget.org/api/v2
+    FAKE (4.63.2)
+    FAKE.Lib (4.63.2)
+    FSharp.Core (4.0.0.1)

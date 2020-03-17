@@ -1,0 +1,416 @@
+{
+    "fileUploader": {
+        "header": "Выбор файлов",
+        "loadList": "Список загрузок",
+        "dragAndDropOr": "Перетащите или",
+        "downloadExample": "Скачать пример",
+        "maxFilesError": "Ошибка: Максимальное количество файлов: {{count}}",
+        "fileTypes": "Тип файлов: {{fileTypes}}",
+        "maxFiles": "Максимум файлов: {{maxFileCount}}",
+        "maxFileSize": "Максимальный размер файла",
+        "uploadFileToSystem": "Загрузить файл в систему",
+        "noProcessedFiles": "Обрабатываемых файлов пока нет",
+        "listOfIgnoredLines": "Список игнорируемых строк",
+        "dateDescription": "Дата и время. Формат даты: число.месяц.год, формат времени: час:минута:секунда",
+        "parameterOrMetric": "Параметр или метрика",
+        "lineNumberInFile": "Номер строки в файле",
+        "ignoreLine": "Содержание игнорируемой строки",
+        "till_slip.quantity": "Количество товаров в чеке",
+        "processing": "Обработка",
+        "inTheProcess": "В процессе",
+        "completeWithError": "Завершено с ошибкой",
+        "wrongEntityId": "Id в файле не связан с id объекта в системе"
+    },
+    "calendar": {
+        "selectPeriod": "Указать период",
+        "averagingByDayOfTheWeek": "Усреднять по дням недели",
+        "dayNotIncludedInPeriod": "День недели не входит в период"
+    },
+    "quickCalendar": {
+        "today": "Сегодня",
+        "yesterday": "Вчера",
+        "currentWeek": "Текущая неделя",
+        "previousWeek": "Предыдущая неделя",
+        "currentMonth": "Текущий месяц",
+        "previousMonth": "Предыдущий месяц"
+    },
+    "detailBy": {
+        "minute": "минутам",
+        "hour": "часам",
+        "day": "дням",
+        "week": "неделям"
+    },    
+    "filterTextDictionary": {
+        "peopleСountInOut": "Посещаемость Вход/Выход"
+    },
+    "aggregationTime": {
+        "day_of_week": "Дни недели",
+        "day_of_year": "Дни года",
+        "week_of_month": "Неделя месяца",
+        "week_of_year": "Неделя года",
+        "month_of_year": "Месяц года",
+        "quarter_of_year": "Квартал года",
+        "all_period": "Весь период"
+    },
+    "importsMetrics": {
+        "description": "Загрузите данные по метрикам в систему. Файл может содержать несколько метрик и только один тип объекта",
+        "fileProcessing": "Обработка файлов"
+    },
+    "report": {
+        "reportGeneratedForThePeriod": "Отчет сформирован за период",
+        "byEntities": "По объектам",
+        "withMetrics": "С метриками",
+        "withDetails": "С детализацией"
+    },
+    "timeUnit": {
+        "second": "Секунда",
+        "minute": "Минута",
+        "hour": "Час",
+        "day": "День",
+        "week": "Неделя",
+        "month": "Месяц",
+        "quarter": "Квартал",
+        "year": "Год"
+    },
+    "timeUnitGroup": {
+        "second": "Секунды",
+        "minute": "Минуты",
+        "hour": "Часы",
+        "day": "Дни",
+        "week": "Недели",
+        "month": "Месяцы",
+        "quarter": "Кварталы",
+        "year": "Годы"
+    },
+    "measure": {
+        "human": "чел",
+        "thing": "шт",
+        "percent": "%",
+        "ruble": "руб",
+        "dollar": "дол",
+        "meter": "м",
+        "squareMeter": "м²",
+        "humanPerSquareMeter": "чел/м²",
+        "rublePerSquareMeter": "руб/м²",
+        "dollarPerSquareMeter": "дол/м²",
+        "second": "с",
+        "minute": "мин",
+        "hour": "час",
+        "day": "день",
+        "week": "нед",
+        "month": "мес",
+        "year": "г",
+        "bit": "бит",
+        "byte": "байт",
+        "Kb": "Кб",
+        "Mb": "Мб",
+        "Gb": "Гб",
+        "Tb": "Тб",
+        "KiB": "КБ",
+        "MiB": "МБ",
+        "GiB": "ГБ",
+        "TiB": "ТБ"
+    },
+    "metric": {
+        "people-count": {
+            "In": "Посещаемость Вход",
+            "Out": "Посещаемость Выход"
+        },
+        "sales-flow-till-slip": {
+            "Count": "Кассовые чеки"
+        },
+        "sales-flow-quantity-of-goods": {
+            "Quantity": "Количество товаров"
+        },
+        "sales-flow-sales": {
+            "Volume": "Продажи"
+        },
+        "people-count-per-floor-space": {
+            "In": "Посещаемость м² Вход",
+            "Out": "Посещаемость м² Выход"
+        },
+        "sales-flow-sales-per-floor-space": {
+            "Volume": "Продажи м²"
+        },
+        "floor-space": {
+            "GrossLeasableArea": "Арендопригодная площадь",
+            "OccupiedFloorSpace": "Количество занимаемой площади"
+        },
+        "shopster-visit-duration": {
+            "Total": "Средняя длительность",
+            "Involved": "Средняя длительность вовлеченных"
+        },
+        "shopster-visitors": {
+            "Total": "Общее количество посетителей",
+            "Unique": "Общее количество уникальных посетителей"
+        },
+        "shopster-visitor-rate": {
+            "Total": "Доля количества зашедших посетителей",
+            "Involved": "Доля количества вовлеченных посетителей",
+            "Uninvolved": "Доля количества не вовлеченных посетителей",
+            "Returned": "Доля повторно вернувшихся посетителей",
+            "New": "Доля впервые зашедших посетителей"
+        },
+        "conversion": {
+            "Rate": "Конверсия"
+        },
+        "average-till-slip-check": {
+            "Volume": "Средний чек"
+        }
+    },
+    "entityFilter": {
+        "selectedEntities": "Выбранные объекты (максимум 5)"
+    },
+    "add": {
+        "metric": "Добавить метрику",
+        "entity": "Добавить объект",
+        "period": "Добавить период"
+    },
+    "sortBy": {
+        "name": "Сортировать по названию"
+    },
+    "change": {
+        "analysisPeriod": "Изменить период анализа"
+    },
+    "analysis": {
+        "period": "Период анализа"
+    },
+    "shiftBy": {
+        "daysOfTheWeek": "Сдвиг по дням недели"
+    },
+    "compare": {
+        "metric": "Сравнение метрик",
+        "entity": "Сравнение объектов",
+        "period": "Сравнение периодов",
+        "for": "за"
+    },
+    "filterBy": {
+        "day": "Фильтрация по дням"
+    },
+    "filter": {
+        "apply": "Применить фильтр"
+    },
+    "missing": {
+        "metrics": "Отсутствуют метрики",
+        "entities": "Отсутствуют объекты",
+        "periods": "Отсутствуют периоды",
+        "data": "Отсутствуют данные",
+        "dataToDisplay": "Нет данных для отображения"
+    },
+    "select": {
+        "metric": "Выберите метрику",
+        "entity": "Выберите объекты",
+        "period": "Выберите период",
+        "detail": "Выберите детализацию"
+    },
+    "ratioByPassages": {
+        "noData": "Отсутствует периметр или с ним не связан ни один проход"
+    },    
+    "performancePage": {
+		"periodOverview": "Обзор за период",
+		"realTime": "Реал-тайм",
+		"troubleshooting": "Поиск проблем",
+		"mallEvents": "События ТЦ",
+		"entrancesEffectiveness": "Эффективность входов в ТЦ"
+	},
+    "kpi": {
+        "peopleCountIn": "Посещаемость Вход"
+    },
+    "dynamicsChartContainer": {
+        "selectObject": "Выберите объект",
+        "selectDetail": "Выберите детализацию"
+    },
+    "header": {
+        "dashboard": "Рабочий стол",
+        "events": {
+            "index": "Событие",
+            "subHeader": {
+                "reviewPeriod": "События ТЦ"
+            }
+        },
+        "performance": {
+            "index": "Перфоманс",
+            "subHeader": {
+                "periodOverview": "Обзор за период"
+            }
+        },
+        "leasing": {
+            "index": "Лизинг",
+            "subHeader": {
+                "periodOverview": "Анализ арендатора"
+            }
+        },
+        "dataExport": "Экспорт данных",
+        "importMetrics": "Импорт метрик",
+        "help": "Помощь"
+    },
+    "eventType": {
+        "evacuation": "Эвакуация",
+        "maintenance": "Ремонт",
+        "holiday_break": "Праздничный период",
+        "clearance_sale": "Распродажа",
+        "action": "Акция",
+        "cross_promotion": "Кросс-промо",
+        "shop_action": "Мероприятие магазина",
+        "tenant_action": "Мероприятие арендатора",
+        "other": "Другое"
+    },
+    "eventList": {
+        "title": "Список событий",
+        "noData": "За выбранный период событий в ТЦ не происходило"
+    },
+    "eventForm": {
+        "editTitle": "Редактирование события",
+        "addTitle": "Добавление нового события",
+        "name": "Название события",
+        "period": "Дата события",
+        "type": "Тип события",
+        "location": "Локация",
+        "comment": "Комментарий",
+        "deleteConfirmTitle": "Удаление события",
+        "deleteConfirmMessage": "Вы собираетесь удалить событие. Продолжить ?",
+        "unsaveConfirmTitle": "Подтверждение действия",
+        "unsaveConfirmMessage": "Несохраненные действия будут потеряны. Вы уверены, что хотите покинуть редактирование ?"
+    },
+    "eventCard": {
+        "wholeMall": "Весь ТЦ: Периметр"
+    },
+    "analytic": {
+        "title": "Рабочий стол"
+    },
+    "common": {
+        "inconsistent": "несогласованный перевод ***",
+        "language": "Русский",
+        "loading": "Загрузка...",
+        "other": "Другое",
+        "compareWith": "Сравнить с",
+        "unableToRetrieveData": "Невозможно получить данные",
+        "noDataToDisplay": "Нет данных для отображения",
+        "noData": "Нет данных",
+        "chooseType": "Выберите тип",
+        "selectFeature": "Выберите характеристику",
+        "avg": "AVG",
+        "deviationFrom": "Отклонение от",
+        "search": "Поиск",
+        "sorting": "Сортировка",
+        "sortBy": "Сортировать по",
+        "value": "Значение",
+        "date": "Дата",
+        "deviation": "Отклонение",
+        "inOrder": "В порядке",
+        "thenBy": "Затем по",
+        "name": "Название",
+        "exit": "Выход",
+        "detailingBy": "Детализация по",
+        "clientAccount": "Личный кабинет клиента",
+        "partnerAccount": "Личный кабинет партнера",
+        "showBy": "Показывать по",
+        "select": "Выберите",
+        "description": "Описание",
+        "complete": "Завершено",
+        "error": "Ошибка",
+        "empty": "",
+        "count": "Какое-то значение: {{count}}"
+    },
+    "search": {
+        "notFound": "Не найдено"
+    },
+    "error": {
+        "required": "Это обязательное поле",
+        "maxCharacters": "Максимальное количество символов",
+        "unableToRetrieveData": "Невозможно получить данные",
+        "noAccessApplication": "Нет прав на доступ к приложению",
+        "unknownType": "Неизвестный тип представления",
+        "requestFailedTryAgain": "Ваш запрос завершился c ошибкой, попробуйте повторить запрос",
+        "unknownStatus": "Неизвестный статус"
+    },
+    "notification": {
+        "incompletePeriod": "Выбран неполный период, автоматически он будет увеличен"
+    },
+    "button": {
+        "add": "Добавить",
+        "cancel": "Отмена",
+        "cancelAll": "Отменить все",
+        "save": "Сохранить",
+        "addEvent": "Добавить событие",
+        "dialog": "Диалог",
+        "ok": "Да",
+        "unload": "Выгрузить",
+        "apply": "Применить",
+        "downloadFiles": "Загрузить файлы"
+    },
+    "entity": {
+        "brand": "Бренд",
+        "format": "Тип магазина",
+        "price-segment": "Ценовой сегмент",
+        "manager": "Управляющий",
+        "bush": "Куст",
+        "region": "Регион",
+        "passage": "Проход",
+        "shop": "Магазин",
+        "tenant": "Арендатор",
+        "cluster": "Кластер",
+        "room": "Комната",
+        "floor": "Этаж",
+        "zone": "Зона",
+        "category": "Категория",
+        "perimeter": "Весь ТЦ",
+        "metric": "Метрика",
+        "period": "Период",
+        "object": "Объект",
+        "sensor": "Сенсор",
+        "anchor": "Якорь",
+        "color": "Цвет",
+        "entity": "Юридическое лицо",
+        "slot1": "Свободный слот №1",
+        "slot2": "Свободный слот №2",
+        "slot3": "Свободный слот №3",
+        "slot4": "Свободный слот №4",
+        "slot": "Слот"
+    },
+    "entityGroup": {
+        "brand": "Бренды",
+        "format": "Типы магазинов",
+        "price-segment": "Ценовые сегменты",
+        "manager": "Управляющие",
+        "bush": "Кусты",
+        "region": "Регионы",
+        "passage": "Проходы",
+        "shop": "Магазины",
+        "tenant": "Арендаторы",
+        "cluster": "Кластеры",
+        "room": "Комнаты",
+        "floor": "Этажи",
+        "zone": "Зоны",
+        "category": "Категории",
+        "perimeter": "Периметры",
+        "metric": "Метрики",
+        "period": "Периоды",
+        "object": "Объекты",
+        "sensor": "Сенсоры",
+        "anchor": "Якоря",
+        "color": "Цвета",
+        "entity": "Юридические лица",
+        "worst": "Худшие",
+        "slot": "Слоты"
+    },
+    "group": {
+        "file": "Файлы"
+    },
+    "ratingList": {
+        "title": {
+            "best": {
+                "metric": "Растущие метрики",
+                "tenant": "Лучшие арендаторы",
+                "tenantByCharacteristics": "Лучшие арендаторы характеристики",
+                "characteristics": "Лучшие характеристики"
+            },
+            "worst": {
+                "metric": "Падающие метрики",
+                "tenant": "Худшие арендаторы",
+                "tenantByCharacteristics": "Худшие арендаторы характеристики",
+                "characteristics": "Худшие характеристики"
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.lang-switcher {
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+
+    &__lang {
+        display: inline-block;
+        color: #8792a8;
+
+        &-name {
+            font-size: 100%;
+        }
+    }
+
+    &__popup {
+        width: 72px;
+        background: #fff;
+        border: 2px solid #fff;
+        border-radius: 3px;
+        box-shadow: 1px 1px 7px #e4e3e8;
+        padding: 4px 0;
+        margin-top: 5px;
+        position: absolute;
+
+        &-text {
+            margin-left: 0px;
+        }
+    }
+}
+
+.country-flag-wrapper {
+    width: 16px;
+    height: 14px;
+    margin: 0 4px -2px 0;
+    display: inline-block;
+}
+
+.country-flag {
+    &_ru {
+        background: no-repeat url('./flags/ru.svg');
+    }
+
+    &_en {
+        background: no-repeat url('./flags/en.svg');
+    }
+}
+
+.list-item {
+    padding: 0 12px;
+
+    &:hover {
+        background-color: #ecf1fc;
+    }
+}
+
+.link {
+    cursor: pointer;
+}

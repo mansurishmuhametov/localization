@@ -1,0 +1,158 @@
+<div class="home">
+    <div>
+        <strong>
+            Home Compomnent
+        </strong>
+    </div>
+    <hr>
+    <div>
+        <div class="row">
+            <div class="col-sm-2">
+                key:
+            </div>
+            <div class="col-sm-3">
+                '{{ Key }}'
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                translate:
+            </div>
+            <div class="col-sm-3">
+                {{ Key | translate }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                instant:
+            </div>
+            <div class="col-sm-3">
+                {{ Instant }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                date:
+            </div>
+            <div class="col-sm-3">
+                {{ CurrentDate }}
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div class="row">
+            <div class="col-sm-2">
+                key:
+            </div>
+            <div class="col-sm-3">
+                '{{ EmptyKey }}'
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                translate:
+            </div>
+            <div class="col-sm-3">
+                {{ EmptyKey | translate }}
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div class="row">
+            <div class="col-sm-5">
+                <strong>Сервис с параметрами</strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                key with params:
+            </div>
+            <div class="col-sm-3">
+                '{{ keyWithParams }}'
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                translate:
+            </div>
+            <div class="col-sm-3">
+                {{ withParams }}
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div class="row">
+            <div class="col-sm-5">
+                <strong>Пайп с параметрами</strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                key with params:
+            </div>
+            <div class="col-sm-3">
+                '{{ keyWithParams }}'
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                translate:
+            </div>
+            <div class="col-sm-3">
+                {{ keyWithParams | translate: keyParams }}
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div class="row">
+            <div class="col-sm-5">
+                <strong>Нет ключа</strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                | translate
+            </div>
+            <div class="col-sm-3">
+                {{ NoKey | translate }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                this.translate.get(null);
+            </div>
+            <div class="col-sm-3">
+                {{ NoKeyResult }}
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div class="row">
+            <div class="col-sm-5">
+                <strong>Специальный символ *** (не показывать на бою)</strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                в словаре
+            </div>
+            <div class="col-sm-3">
+                inconsistent translation ***
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                в интерфейсе
+            </div>
+            <div class="col-sm-3">
+                {{ Inconsistent | translate }}
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>

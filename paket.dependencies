@@ -1,0 +1,9 @@
+strategy: min
+framework: net471
+
+group Build
+    source https://nuget.org/api/v2
+    source http://nuget.watcom.ru/nuget
+
+    nuget FAKE ~> 4.63.2
+    nuget Corns.Fake ~> 1.0.0

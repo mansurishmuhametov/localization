@@ -1,0 +1,415 @@
+{
+	"fileUploader": {
+		"header": "File selection",
+		"loadList": "Load list",
+		"dragAndDropOr": "Drag and drop or",
+		"downloadExample": "Download example",
+		"maxFilesError": "Error: Max files: {{count}}",
+		"fileTypes": "File types: {{fileTypes}}",
+		"maxFiles": "Maximum number of files: {{maxFileCount}}",
+		"maxFileSize": "Maximum file size",
+		"uploadFileToSystem": "Upload data ",
+		"noProcessedFiles": "No files in progress yet",
+		"listOfIgnoredLines": "List of ignored lines",
+		"dateDescription": "Date and time. Date format: D.M.Y, time format: H:M:S",
+		"parameterOrMetric": "Parameter or metric",
+		"lineNumberInFile": "Line number in csv file",
+		"ignoreLine": "Ignored line content",
+		"till_slip.quantity": "Units",
+		"processing": "Processing",
+		"inTheProcess": "In progress",
+		"completeWithError": "Completed with error",
+		"wrongEntityId": "ID of entity is not bound to any ID in Focus"
+	},
+	"calendar": {
+		"selectPeriod": "Select period",
+		"averagingByDayOfTheWeek": "Average by day of week",
+		"dayNotIncludedInPeriod": "Period of report doesn’t contain day of week "
+	},
+	"quickCalendar": {
+		"today": "Today",
+		"yesterday": "Yesterday",
+		"currentWeek": "Current week",
+		"previousWeek": "Previous week",
+		"currentMonth": "Current month",
+		"previousMonth": "Previous month"
+	},
+	"detailBy": {
+		"minute": "minutes",
+		"hour": "hours",
+		"day": "days",
+		"week": "weeks"
+	},
+	"filterTextDictionary": {
+		"peopleСountInOut": "Traffic In/Out "
+	},
+	"aggregationTime": {
+		"day_of_week": "Day of week",
+		"day_of_year": "Day of year",
+		"week_of_month": "Week of month",
+		"week_of_year": "Week of year",
+		"month_of_year": "Month of year",
+		"quarter_of_year": "Quarter of year",
+		"all_period": "Full period"
+	},
+	"importsMetrics": {
+		"description": "Upload csv file with metrics. File should contain only one type of entity. File may contain few metrics from one source",
+		"fileProcessing": "File processing"
+	},
+	"report": {
+		"reportGeneratedForThePeriod": "Report period",
+		"byEntities": "By objects",
+		"withMetrics": "With metrics",
+		"withDetails": "Detailed"
+	},
+	"timeUnit": {
+		"second": "Second",
+		"minute": "Minute",
+		"hour": "Hour",
+		"day": "Day",
+		"week": "Week",
+		"month": "Month",
+		"quarter": "Quarter",
+		"year": "Year"
+	},
+	"timeUnitGroup": {
+		"second": "Seconds",
+		"minute": "Minutes",
+		"hour": "Hours",
+		"day": "Days",
+		"week": "Weeks",
+		"month": "Months",
+		"quarter": "Quarters",
+		"year": "Years"
+	},
+	"measure": {
+		"human": "",
+		"thing": "thing",
+		"percent": "%",
+		"ruble": "rub",
+		"dollar": "$",
+		"meter": "m",
+		"squareMeter": "m²",
+		"humanPerSquareMeter": "ppl/ m²",
+		"rublePerSquareMeter": "rub/m²",
+		"dollarPerSquareMeter": "$/m²",
+		"second": "s",
+		"minute": "min",
+		"hour": "hour",
+		"day": "day",
+		"week": "week",
+		"month": "month",
+		"year": "year",
+		"bit": "bit",
+        "byte": "byte",
+        "Kb": "Kb",
+        "Mb": "Mb",
+        "Gb": "Gb",
+        "Tb": "Tb",
+        "KiB": "KiB",
+        "MiB": "MiB",
+        "GiB": "GiB",
+        "TiB": "TiB"
+        
+	},
+	"metric": {
+		"people-count": {
+			"In": "Traffic",
+			"Out": "Traffic (out)"
+		},
+		"sales-flow-till-slip": {
+			"Count": "Transactions"
+		},
+		"sales-flow-quantity-of-goods": {
+			"Quantity": "Units"
+		},
+		"sales-flow-sales": {
+			"Volume": "Sales"
+		},
+		"people-count-per-floor-space": {
+			"In": "Traffic/m²",
+			"Out": "Traffic/m² (out)"
+		},
+		"sales-flow-sales-per-floor-space": {
+			"Volume": "Sales/m²"
+		},
+		"floor-space": {
+			"GrossLeasableArea": "GLA",
+			"OccupiedFloorSpace": "Occupied area"
+		},
+		"shopster-visit-duration": {
+			"Total": "Average visit duration",
+			"Involved": "Average visit duration (engaged)"
+		},
+		"shopster-visitors": {
+			"Total": "Visitors (total)",
+			"Unique": "Visitors (unique)"
+		},
+		"shopster-visitor-rate": {
+			"Total": "Capture rate",
+			"Involved": "Engagement rate",
+			"Uninvolved": "Bounced rate",
+			"Returned": "Return rate",
+			"New": "New visitors rate"
+		},
+		"conversion": {
+			"Rate": "Conversion"
+		},
+		"average-till-slip-check": {
+			"Volume": "ATV"
+		}
+	},
+	"entityFilter": {
+		"selectedEntities": "Selected entities (max 5)"
+	},
+	"add": {
+		"metric": "Add metric",
+		"entity": "Add entity",
+		"period": "Add period"
+	},
+	"sortBy": {
+		"name": "Sort by name"
+	},
+	"change": {
+		"analysisPeriod": "Change period"
+	},
+	"analysis": {
+		"period": "Period"
+	},
+	"shiftBy": {
+		"daysOfTheWeek": "Align by days of week"
+	},
+	"compare": {
+		"metric": "Metric comparison",
+		"entity": "Entity comparison",
+		"period": "Period comparison",
+		"for": "from"
+	},
+	"filterBy": {
+		"day": "Filtering by day"
+	},
+	"filter": {
+		"apply": "Apply filter"
+	},
+	"missing": {
+		"metrics": "Missing metrics",
+		"entities": "Missing entities",
+		"periods": "Missing periods",
+		"data": "Missing data",
+		"dataToDisplay": "No data to display"
+	},
+	"select": {
+		"metric": "Select metric",
+		"entity": "Select entity",
+		"period": "Select period",
+		"detail": "Detailing"
+	},
+	"ratioByPassages": {
+		"noData": "The perimeter is missing or no passages bound to it"
+	},
+	"performancePage": {
+		"periodOverview": "Dashboard",
+		"realTime": "Real time",
+		"troubleshooting": "Troubleshooting",
+		"mallEvents": "Events",
+		"entrancesEffectiveness": "Traffic by entrances"
+	},
+	"kpi": {
+		"peopleCountIn": "Traffic"
+	},
+	"dynamicsChartContainer": {
+		"selectObject": "Select entity",
+		"selectDetail": "Detailing"
+	},
+	"header": {
+		"dashboard": "Dashboard",
+		"events": {
+			"index": "Events",
+			"subHeader": {
+				"reviewPeriod": "Event list"
+			}
+		},
+		"performance": {
+			"index": "Performance",
+			"subHeader": {
+				"periodOverview": "Dashboard"
+			}
+		},
+		"leasing": {
+			"index": "Leasing",
+			"subHeader": {
+				"periodOverview": "Tenant overview"
+			}
+		},
+		"dataExport": "Data export",
+		"importMetrics": "Import metrics",
+		"help": "Help"
+	},
+	"eventType": {
+		"evacuation": "Evacuation",
+		"maintenance": "Maintenance",
+		"holiday_break": "Holidays",
+		"clearance_sale": "Sale",
+		"action": "Promotion",
+		"cross_promotion": "Cross promotion",
+		"shop_action": "Shop promotion",
+		"tenant_action": "Tenant promotion",
+		"other": "Other"
+	},
+	"eventList": {
+		"title": "Event list",
+		"noData": "No events during the period"
+	},
+	"eventForm": {
+		"editTitle": "Edit event",
+		"addTitle": "Add new event",
+		"name": "Event name",
+		"period": "Event period",
+		"type": "Event type",
+		"location": "Location",
+		"comment": "Comment",
+		"deleteConfirmTitle": "Delete event",
+		"deleteConfirmMessage": "You are going to delete the event. Continue?",
+		"unsaveConfirmTitle": "Confirm action",
+		"unsaveConfirmMessage": "Unsaved changes will be lost. Are you sure you want to leave editing?"
+	},
+	"eventCard": {
+		"wholeMall": "Mall"
+	},
+	"analytic": {
+		"title": "Desktop"
+	},
+	"common": {
+        "inconsistent": "inconsistent translation ***",
+		"language": "English",
+		"loading": "Loading...",
+		"other": "Other",
+		"compareWith": "Compare with",
+		"unableToRetrieveData": "Unable to retrieve data",
+		"noDataToDisplay": "No data to display",
+		"noData": "No data",
+		"chooseType": "Select type",
+		"selectFeature": "Select entity",
+		"avg": "AVG",
+		"deviationFrom": "Deviation from",
+		"search": "Search",
+		"sorting": "Sorting",
+		"sortBy": "Sort by",
+		"date": "Date",
+		"deviation": "Deviation",
+		"inOrder": "In order",
+		"thenBy": "Then by",
+		"name": "Name",
+		"exit": "Exit",
+		"detailingBy": "Detailing by",
+		"clientAccount": "Client account",
+		"partnerAccount": "Partner account",
+		"showBy": "Show by",
+		"select": "Select",
+		"description": "Description",
+		"complete": "Complete",
+		"error": "Error",
+        "empty": "",
+        "count": "Some value: {{count}}"
+	},
+	"search": {
+		"notFound": "No items found"
+	},
+	"error": {
+		"required": "Required field",
+		"maxCharacters": "Maximum number of characters",
+		"unableToRetrieveData": "Unable to retrieve data",
+		"noAccessApplication": "No access rights to the application",
+		"unknownType": "Unknown type",
+		"requestFailedTryAgain": "Your request has failed, please try again",
+		"unknownStatus": "Unknown status"
+	},
+	"notification": {
+		"incompletePeriod": "Insufficient period was automatically filled to match detailing of report"
+	},
+	"button": {
+		"add": "Add",
+		"cancel": "Cancel",
+		"cancelAll": "Cancel All",
+		"save": "Save",
+		"addEvent": "Add event",
+		"dialog": "Dialog",
+		"ok": "Ok",
+		"unload": "Unload",
+		"apply": "Apply",
+		"downloadFiles": "Download files"
+	},
+	"entity": {
+		"brand": "Brand",
+		"format": "Shop type",
+		"price-segment": "Price segment",
+		"manager": "Manager",
+		"bush": "Bush",
+		"region": "Region",
+		"passage": "Passage",
+		"shop": "Shop",
+		"tenant": "Tenant",
+		"cluster": "Cluster",
+		"room": "Room",
+		"floor": "Floor",
+		"zone": "Zone",
+		"category": "Category",
+		"perimeter": "Whole mall",
+		"metric": "Metric",
+		"period": "Period",
+		"object": "Object",
+		"sensor": "Sensor",
+		"anchor": "Anchor",
+		"color": "Color",
+		"slot1": "Free slot №1",
+		"slot2": "Free slot №2",
+		"slot3": "Free slot №3",
+		"slot4": "Free slot №4",
+		"slot": "Slot"
+	},
+	"entityGroup": {
+		"brand": "Brands",
+		"format": "Shop types",
+		"price-segment": "Price segments",
+		"manager": "Managers",
+		"bush": "Bushes",
+		"region": "Regions",
+		"passage": "Passages",
+		"shop": "Shops",
+		"tenant": "Tenants",
+		"cluster": "Clusters",
+		"room": "Rooms",
+		"floor": "Floors",
+		"zone": "Zones",
+		"category": "Categories",
+		"perimeter": "Perimeters",
+		"metric": "Metrics",
+		"period": "Periods",
+		"object": "Objects",
+		"sensor": "Sensors",
+		"anchor": "Anchors",
+		"color": "Colors",
+		"worst": "Worst",
+		"best": "Best",
+		"slot": "Slots"
+	},
+	"group": {
+		"file": "Files"
+	},
+    "ratingList": {
+        "title": {
+            "best": {
+                "metric": "Increasing metrics ***",
+                "tenant": "Top tenants ***",
+                "tenantByCharacteristics": "Top tenants features ***",
+                "characteristics": "Top features ***"
+            },
+            "worst": {
+                "metric": "Decreasing metrics ***",
+                "tenant": "Worst tenants ***",
+                "tenantByCharacteristics": "Worst tenants features ***",
+                "characteristics": "Worst features ***"
+            }
+        }
+    }
+}
